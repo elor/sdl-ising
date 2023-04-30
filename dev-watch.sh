@@ -5,5 +5,5 @@
 
 set -e -u
 
-watchexec --exts cpp,hpp,txt --restart --ignore 'build/**' './install-build-and-test.sh && echo "Build successful" && build/bin/main'
+watchexec --exts cpp,hpp,txt --restart --ignore 'build/**' './install-build-and-test.sh && echo && echo "Build successful"'
 
